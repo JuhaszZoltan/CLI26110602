@@ -1,0 +1,105 @@
+﻿# LINQ Gyakorlófeladatok
+
+- [ ] **1.** Hány olyan termékünk van összesen, aminek az ára kevesebb mint 10 000 Ft?
+- [x] **2.** Melyik a legdrágább termék a teljes kínálatban? (Válaszként a teljes objektumra van szükség.)
+- [ ] **3.** Keresd meg a listában azt az egyetlen terméket, amelynek az `Id`-ja pontosan 42!
+- [ ] **4.** Van-e egyáltalán olyan termék a teljes kínálatban, aminek az ára meghaladja az 1 000 000 Ft-ot?
+- [x] **5.** Mennyi az összes termékünk átlagos értékelése a webshopban (a teljes listát nézve)?
+- [ ] **6.** Keresd meg az első "Quantum" gyártmányú okostelefont, amelynek az ára 200 000 Ft alatt van! (Ha nincs ilyen, az eredmény legyen `null`).
+- [ ] **7.** Keresd meg a lista legutolsó olyan termékét, amiből pontosan 0 darab van raktáron! (Ha nincs ilyen, az eredmény legyen `null`).
+- [ ] **8.** Igaz-e az az állítás, hogy a kínálatunkban lévő összes termék értékelése eléri a 3.0-t?
+- [ ] **9.** Melyik termékből van a legnagyobb darabszám készleten a teljes raktárat figyelembe véve?
+- [ ] **10.** Keresd meg a fájl szerinti legelső "Tablet" kategóriájú terméket!
+- [ ] **11.** Hány darab "Okostelefon" kategóriájú termék található a listában?
+- [ ] **12.** Mennyi a teljes raktárkészletünk darabszáma összesen (az összes termékből együttesen)?
+- [ ] **13.** Keresd meg a listában a "Foldable Z2" modellnevű terméket (biztosak vagyunk benne, hogy pontosan egy ilyen van)!
+- [ ] **14.** Létezik-e legalább egy olyan termék a rendszerben, amiből több mint 300 darab porosodik a raktáron?
+- [ ] **15.** Melyik a legutolsó "Monitor" kategóriájú termék a lista sorrendje alapján?
+- [ ] **16.** Melyik a legrosszabbra értékelt termék az egész raktárban?
+- [x] **17.** Mekkora a teljes árukészletünk összértéke (ár × készlet) az összes kategóriát egybevéve?
+- [ ] **18.** Igaz-e, hogy az összes raktáron lévő termékünk ára 1 000 000 Ft alatt van?
+- [ ] **19.** Keresd meg a "Gamer Pro 19" nevű modellt! A program fusson tovább hiba nélkül akkor is, ha ilyen termék még nem létezik a rendszerben.
+- [ ] **20.** Mi az átlagos ára a kínálatunkban szereplő 80 db terméknek?
+- [ ] **21.** Keresd meg a listában azt a "Cyber" gyártmányú terméket, aminek az értékelése hajszálpontosan 3.8! (Tegyük fel, hogy nem tudjuk, hány ilyen van, de az elsőt kérjük).
+- [ ] **22.** Igaz-e az az állítás, hogy az összes "Kiegeszito" kategóriájú termékből van legalább 10 db raktáron?
+- [ ] **23.** Hány olyan termékünk van, aminek a gyártója "Apex" és az ára 20 000 Ft felett van?
+- [ ] **24.** Melyik az az egyetlen termék, aminek az azonosítója (`Id`) pontosan 80?
+- [ ] **25.** Mennyi az átlagos készletszint (darabszám) a "NextGen" márkájú termékek esetében?
+- [ ] **26.** Melyik a legolcsóbb "Monitor" a jelenlegi kínálatunkban?
+- [ ] **27.** Van-e olyan "Laptop" a listában, amiből több mint 100 darab porosodik a raktáron?
+- [ ] **28.** Mennyi a "Tablet" kategóriájú termékek értékelésének átlaga?
+- [ ] **29.** Keresd meg a lista legelső olyan termékét, aminek az ára pontosan 45 000 Ft!
+- [ ] **30.** Melyik az utolsó olyan termék a fájlban, aminek az értékelése tökéletes (5.0)?
+- [ ] **31.** Hány darab olyan termékünk van összesen, amelynek a nevében (`Modell`) szerepel a "Pro" szó?
+- [ ] **32.** Mekkora a "Nova" gyártó összes termékének együttes készletértéke forintban (ár × darab)?
+- [ ] **33.** Melyik az a "SoundWave" termék, amiből a legkevesebb van raktáron?
+- [ ] **34.** Igaz-e, hogy az összes 500 000 Ft-nál drágább prémium termékünk értékelése legalább 4.5?
+- [ ] **35.** Keresd meg a rendszerben azt az egyetlen terméket, amelynek a modellneve "Pocket 6G"!
+- [ ] **36.** Van-e olyan termék a "Kiegeszito" kategóriában, ami drágább, mint 50 000 Ft?
+- [ ] **37.** Keresd meg a legelső olyan "TechPro" márkájú terméket, amelynek az ára még 100 000 Ft alatt van! (Biztosítsd, hogy ne fagyjon le a kód, ha ilyen már nincs).
+- [ ] **38.** Melyik a legmagasabb értékelést kapott "Okostelefon" az egész listában?
+- [ ] **39.** Hány darab termékünk van összesen az "Apex" és a "Quantum" gyártóktól együttesen? (Egy lekérdezésben oldd meg!)
+- [ ] **40.** Keresd meg a sorrend szerinti legutolsó olyan terméket a listában, ami "Vision" gyártmányú!
+
+- [ ] **41.** Rendezd a teljes listát ár szerint növekvő sorrendbe!
+- [ ] **42.** Rendezd az "Okostelefon" kategóriájú termékeket értékelés szerint csökkenő sorrendbe!
+- [ ] **43.** Listázd ki az összes "Nova" terméket raktárkészlet (darabszám) alapján csökkenő sorrendben!
+- [ ] **44.** Rendezd a teljes kínálatot először kategória szerint ABC sorrendbe, majd azon belül ár szerint csökkenőbe!
+- [ ] **45.** Rendezd a termékeket gyártó szerint ABC sorrendbe, azon belül pedig értékelés szerint növekvőbe!
+- [ ] **46.** Listázd ki a "Laptop" kategória termékeit: először értékelés alapján csökkenően, majd (ha ez megegyezik) ár alapján növekvően!
+- [ ] **47.** Melyik a 3 legolcsóbb termékünk a teljes kínálatban? (Használd a `Take` metódust!)
+- [ ] **48.** Keresd meg a 3 legdrágább "Monitor" kategóriájú terméket!
+- [ ] **49.** Válaszd ki az 5 legjobbra értékelt "Kiegeszito" kategóriájú terméket!
+- [ ] **50.** Rendezd a listát készlet szerint növekvőbe, és add vissza a legelsőt a `First` segítségével! (Ez amúgy megegyezik a `MinBy` logikájával).
+- [ ] **51.** Listázd ki a 10 legkevesebb raktárkészlettel rendelkező terméket a teljes rendszerből!
+- [ ] **52.** Melyek azok a termékek, amik 50 000 Ft alattiak? Rendezd őket értékelés szerint csökkenően!
+- [ ] **53.** Listázd az összes 4.5-nél jobb értékelésű "Tablet"-et és "Monitor"-t együttesen, ár szerint növekvő sorrendben!
+- [ ] **54.** Válaszd ki azokat a "TechPro" termékeket, amikből kevesebb mint 20 db van raktáron, és rendezd őket modellnév szerint ABC sorrendbe!
+- [ ] **55.** Mik a legdrágább termékek a "Cyber" gyártótól? Add vissza az első kettőt, ár szerint csökkenő sorrendben!
+- [ ] **56.** Keresd meg azokat a termékeket, amelyek nevében szerepel a "Pro" szó, és rendezd őket készlet alapján csökkenőbe!
+- [ ] **57.** Rendezd az összes terméket ár szerint csökkenőbe, majd hagyd ki az első 5-öt, és add vissza a következő 5 terméket! (Ez egy klasszikus "lapozás" vagy "paging" megoldás a `Skip` és `Take` segítségével).
+- [ ] **58.** Rendezd a listát `Id` szerint csökkenőbe, és add vissza a második elemet!
+- [ ] **59.** Listázd a "Quantum" és "Apex" termékeket: először kategória szerint ABC sorrendbe, azon belül pedig ár szerint csökkenően!
+- [ ] **60.** Válaszd ki azokat a termékeket, amelyek értékelése hajszálpontosan 4.5, és rendezd őket gyártó, majd azon belül modellnév szerint is ABC sorrendbe!
+- [ ] **61.** Keresd meg a 100 000 Ft-nál drágább, de 300 000 Ft-nál olcsóbb okostelefonokat, értékelés szerint csökkenő sorrendben!
+- [ ] **62.** Listázd az összes terméket, amiből több mint 100 darab van raktáron: először raktárkészlet, majd másodlagosan ár szerint is csökkenően!
+- [ ] **63.** Melyik az az 5 termék, ami a leggyengébb értékelést kapta a "Kiegeszito" kategórián **kívül**? Rendezd őket értékelés szerint növekvőbe!
+- [ ] **64.** Szűrd ki a "Nova" gyártó termékeit, rendezd őket ár szerint növekvőbe, és olvasd ki a legolcsóbb termékük értékelését! (Csak egy `double` számot adjon vissza a LINQ).
+- [ ] **65.** Keresd meg a 3 legolcsóbb, 4.8-as vagy annál jobb értékelésű terméket a teljes kínálatból!
+- [ ] **66.** Rendezd az "Okostelefon" kategóriát ár szerint csökkenőbe. Melyik a 4. legdrágább telefonunk? (Válaszként az egyetlen, 4. helyen álló terméket add vissza!)
+- [ ] **67.** Add vissza azt a listát, ami az összes "Monitor"-t tartalmazza ár szerint növekvő sorrendben, de csak azokat, amikből van legalább 10 db raktáron!
+- [ ] **68.** Válaszd ki az 5 legkisebb készlettel rendelkező terméket (amik nincsenek teljesen kifogyva, tehát Keszlet > 0), készlet alapján növekvő, majd ár alapján csökkenő sorrendben!
+- [ ] **69.** Rendezd a teljes raktárat gyártó szerint fordított ABC (Z-A) sorrendbe, majd kategória szerint normál (A-Z) ABC sorrendbe!
+- [ ] **70.** Készíts egy "Top 10" listát a legjobb értékelésű termékekből, amikből legalább 50 db van raktáron! A rendezés legyen értékelés szerint csökkenő, majd ha ez egyenlő, akkor ár szerint növekvő!
+
+- [ ] **71.** Listázd ki a rendszerben található összes egyedi (különböző) gyártó nevét!
+- [ ] **72.** Számold meg, hány különböző kategória található összesen a termékpalettán!
+- [ ] **73.** Csoportosítsd a termékeket kategória szerint, és add meg, hogy melyik kategóriában hányféle termék található!
+- [ ] **74.** Gyártónként mennyi a teljes raktárkészletünk (összesített darabszám)? Készíts róla egy listát!
+- [ ] **75.** Csoportosítsd a termékeket kategóriánként, és számold ki minden kategória átlagos értékelését!
+- [ ] **76.** Keresd meg kategóriánként a legdrágább terméket (a teljes `Termek` objektumot add vissza kategóriánként)!
+- [ ] **77.** Gyártónként mennyi a legolcsóbb termék ára? (Itt elég az árat és a gyártó nevét visszaadni).
+- [ ] **78.** Listázd ki azoknak a gyártóknak a neveit (egyedien, ismétlődés nélkül), akiknek van "Okostelefon" kategóriájú terméke!
+- [ ] **79.** Készíts egy listát a kategóriákról és az azokhoz tartozó termékek számáról, majd rendezd a listát a termékek száma szerint csökkenő sorrendbe!
+- [ ] **80.** Csoportosítsd a termékeket összetett kulccsal: kategória ÉS gyártó szerint! Számold meg, hány termék van az egyes "Kategória-Gyártó" kombinációkban!
+- [ ] **81.** Gyártónként csoportosítva szűrd ki azokat a gyártókat, akiknél a raktárkészlet összértéke (ár × db) meghaladja az 1 000 000 Ft-ot! Csak ezen gyártók nevét add vissza!
+- [ ] **82.** Listázd ki a termékeknél előforduló összes lehetséges értékelést (ismétlődés nélkül), szigorúan csökkenő sorrendben!
+- [ ] **83.** Kategóriánként számold ki a teljes készletértéket forintban (Ár × Készlet), és rendezd a kategóriákat ez alapján csökkenőbe!
+- [ ] **84.** Melyek azok a gyártók, akiknek több mint 10 féle termékük van a kínálatban? Csak a gyártók nevét listázd!
+- [ ] **85.** Hányféle különböző (egyedi) áron árulunk termékeket a teljes webshopban?
+- [ ] **86.** Kategóriánként gyűjtsd össze egy belső listába az összes, az adott kategóriához tartozó modell nevét (egy kategória - sok modellnév)!
+- [ ] **87.** A "Kiegeszito" kategóriájú termékeket csoportosítsd gyártó szerint, és add meg mindegyik gyártónál ezen termékek átlagos árát!
+- [ ] **88.** Gyártónként keresd meg a legrosszabbra értékelt terméket (a teljes objektum kell)!
+- [ ] **89.** Csoportosítsd a termékeket egy logikai feltétel alapján: drágábbak-e 100 000 Ft-nál? (Így lesz egy `true` és egy `false` csoport). Számold meg, mennyi termék van a két csoportban!
+- [ ] **90.** Gyártónként készíts egy komplett statisztikát: Gyártó neve, Különböző termékek száma, Összes darab raktáron, és az eddigi Legjobb értékelés, amit egy termékük kapott!
+
+- [ ] **91.** Készíts egy listát (string) azokról a gyártókról, akik "Laptop"-ot készítenek, és egy másikat azokról, akik "Monitor"-t. Használd a halmazok unióját (`Union`), hogy megkapd az összes ilyen gyártó nevét, ismétlődések nélkül!
+- [ ] **92.** Melyek azok a gyártók, akik "Laptop"-ot ÉS "Tablet"-et is készítenek? (Használd az `Intersect` metódust a két gyártólista metszetére!)
+- [ ] **93.** Mely gyártók NEM gyártanak "Kiegeszito" kategóriájú terméket? (Képezd az összes gyártó halmazát, és vond ki belőle `Except`-tel a kiegészítőt gyártók halmazát!)
+- [ ] **94.** Legyen két objektumlistád: `olcsok` (50 ezer Ft alattiak) és `kivaloak` (4.8 vagy jobb értékelés). Egyesítsd a két teljes objektumlistát úgy, hogy egy termék se szerepeljen duplán a végeredményben! (Használd a .NET 6 `UnionBy` metódusát az `Id` alapján!)
+- [ ] **95.** Tegyük fel, hogy egy külső API-ból kaptál egy listát a ma akciós termékek azonosítóiról: `int[] akciosIdk = { 3, 12, 45, 67, 72 };`. Keresd ki a teljes terméklistából ezeket a konkrét `Termek` objektumokat az `IntersectBy` segítségével!
+- [ ] **96.** Hozd létre a "TechPro" és a "Nova" termékek listáját külön-külön! Fűzd össze őket a `Concat` segítségével! (A Concat nem szűr ismétlődésre, csak "egymás mögé ragasztja" a listákat, ami teljesítményben gyorsabb, ha tudjuk, hogy eleve nincs átfedés).
+- [ ] **97.** Szűrd ki a "Cyber" termékeket a teljes kínálatból úgy, hogy az `ExceptBy` metódust használod! (A teljes terméklistából vond ki a "Cyber" termékek `Id`-jait).
+- [ ] **98.** Keresd meg halmazművelettel azokat a kategóriákat (string), amelyekben van 4.9 vagy annál jobb értékelésű termék, ÉS van 300 000 Ft-nál drágább termék is! (Két string halmaz `Intersect`-je).
+- [ ] **99.** Készíts két listát: a `listaA` legyen a lista első 20 terméke (`Take(20)`), a `listaB` pedig a 11-től a 30-ig tartó termékek (`Skip(10).Take(20)`). Hány eleme lesz a két lista metszetének, ha az `Id` alapján nézzük (`IntersectBy`)?
+- [ ] **100.** *(Szimmetrikus differencia - Haladó)* A LINQ-ban nincs beépített operátor a szimmetrikus differenciára (A ∪ B \ A ∩ B). Készíts egy lekérdezést kizárólag halmazműveletekkel (`UnionBy`, `IntersectBy`, `ExceptBy`), ami azokat a termékeket adja vissza, amelyek VAGY "Nova" gyártmányúak (A), VAGY 50 000 Ft alattiak (B), de **NEM mindkettő egyszerre**!
